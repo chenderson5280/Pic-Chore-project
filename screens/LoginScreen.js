@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useLayoutEffect } from "react";
 import { View, Text, StyleSheet, KeyboardAvoidingView } from "react-native";
 import { Button, Input, Image } from "react-native-elements";
 import { StatusBar } from "expo-status-bar";
@@ -11,6 +11,7 @@ const LoginScreen = ({navigation}) => {
 
     useEffect(() => {
         const unsubscribe = auth.onAuthStateChanged((authUser) => {
+            console.log(authUser); 
             if(authUser) {
                 navigation.replace('Home');
             }
@@ -18,9 +19,17 @@ const LoginScreen = ({navigation}) => {
         return unsubscribe;
     }, [])
 
-    const signIn = () => {
+    useLayoutEffect(() => {
+        navigation.setOptions({
+            title: "PIC-CHORE"
+    })
+    })
+        
 
-    }
+    const signIn = () => {
+        auth.signInWithEmailAndPassword(email, password)
+        .catch((error) => alert(error));
+    };
 
     return (
         <KeyboardAvoidingView behavior='padding' style={styles.container}>
@@ -46,9 +55,10 @@ const LoginScreen = ({navigation}) => {
                 type="password"
                 value={password}
                 onChangeText={(text) => setPassword(text)}
+                onSubmitEditing={signIn}
             />
         </View>
-        <Button containerStyle={styles.button} onPress={ signIn }title='Login'/>
+        <Button containerStyle={styles.button} onPress={signIn} title='Login'/>
         <Button 
             onPress={() => navigation.navigate('Register')} 
             containerStyle={styles.button} 
