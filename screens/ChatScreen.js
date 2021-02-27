@@ -141,7 +141,7 @@ const ChatScreen = ({navigation, route}) => {
                     <View style={styles.footer}>
                         <TextInput  
                             value={input}
-                            placeholder='What da problem is...'
+                            placeholder='message here...'
                             onChangeText={(text) => setInput(text)}
                             onSubmitEditing={sendMessage}
                             style={styles.textInput}
@@ -169,6 +169,7 @@ const styles = StyleSheet.create({
     },
     container:{
         flex:1,
+        margin: 10,
         // flexDirection: 'row',
         // alignItems: 'center',
     },
@@ -211,6 +212,7 @@ const styles = StyleSheet.create({
         alignItems:'center',
         width:'100%',
         padding: 15,
+        
     },
     textInput:{
         bottom: 0,
@@ -220,12 +222,16 @@ const styles = StyleSheet.create({
         backgroundColor: "white",
         padding:10,
         color: "black",
-        borderRadius:30
+        borderRadius:3,
+        borderColor:"black"
     },
     submitButton:{
         fontSize: 30,
         fontWeight: "700",
-        textDecorationLine: 'underline'
+        // textDecorationLine: 'underline'
+        color: '#ff9900',
+        // textShadowColor:'#990000',
+        // textShadowRadius:1
 
     },
     submitView: {

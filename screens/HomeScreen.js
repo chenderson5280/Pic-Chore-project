@@ -41,7 +41,7 @@ const HomeScreen = ({navigation}) => {
             headerTitleStyle: { color: "white"},
             headerTintColor: "blue",
             headerLeft: () => (
-                <View style={{marginLeft: 15, flexDirection:'row', flex:2 }}>
+                <View style={{marginLeft: 15, flexDirection:'row', flex:2, marginTop:10 }}>
                     <TouchableOpacity onPress={ signOutUser } activeOpacity={0.5}>
                         <Text style={styles.logout}>  LogOut </Text>
                         {/* <Avatar rounded  size={45} source={{ uri: auth?.currentUser?.photoURL}} /> */}
