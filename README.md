@@ -12,7 +12,7 @@ Pic-chore is a mobile app with camera functionality and chat funtionality betwee
 ![alt text](/assets/LoginScreen.jpeg)
 <br>
 <h3> Register Screen<h3>
-<p>Here is what the register screen looks like. A user will create an account with these 4 entries. One for Name; can be full name or nick name. The next two entries will also be used for loging in: email and password. And finally we have profile pic, were a user can upload any photo for their account. The photo will display as a circular avatar. </p>
+<p>Here is what the register screen looks like. A user will create an account with these 4 entries. One for Name; can be full name or nick name. The next two entries will also be used for loging in: email and password. And finally we have profile pic, were a user can upload any photo for their account. The photo will display as a circular avatar. Once all the information is in, the user will push the 'Register' button to create the account and be re-directed to their home screen. </p>
 
 ![alt text](/assets/RegisterScreen.jpeg)
 <!-- <img src= 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3GPLyx7b78TAprDoxVlyA10ZUHD-C-aP4wg&usqp=CAU'> -->
