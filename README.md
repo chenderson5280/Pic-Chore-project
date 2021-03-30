@@ -10,12 +10,12 @@ Pic-chore is a mobile app with camera functionality and chat funtionality betwee
 ![alt text](/assets/LoginScreen.jpeg)
 <br>
 <h3> Register Screen<h3>
-<p>Here is what the register screen looks like. A user will create an account with these 4 entries. One for Name; can be full name or nick name. The next two entries will also be used for loging in: email and password. And finally we have profile pic, were a user can upload any photo for their account. The photo will display as a circular avatar. Once all the information is in, the user will push the 'Register' button to create the account and be re-directed to their home screen. </p>
+<p>Here is what the register screen looks like. A user will create an account with these 4 entries. One for Name; can be full name or nick name. The next two entries will also be used for loging in: email and password. And finally we have profile pic, were a user can upload any photo for their account. The photo will display as a circular avatar. Once all the information is in, the user will push the 'Register' button to create the account and be re-directed to their home screen. Also, I have the 'Back it up' button to return to the Login Screen. </p>
 
 ![alt text](/assets/RegisterScreen.jpeg)
 <br>
 <h3> Chores / Home Screen<h3>
-<p>Welcome to the home screen. </p>
+<p>Welcome to the home screen. The main purpose of this screen is to see all chores still waiting to be complete. You will notice the user's avatar at the top-middle. Chores listed below and organized by most recent at the top. There is a 'LogOut' button to exit the app, also a camera and pencil button. The camera will just simply bring up the camera. The pencil will prompt the user to create a new chore to be done. #smileykitty </p>
 
 ![alt text](/assets/HomeScreen.jpeg)
 
