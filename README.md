@@ -8,13 +8,9 @@ Pic-chore is a mobile app with camera functionality and chat funtionality betwee
 <br>
 <h3> Login Screen<h3>
 <p>This is the login screen with full AUTH via Firebase. To login in you will need an account with valid email and password. If you do not have an account, you will need to create one by pressing the 'Sign Up' button at the bottom. </p>
-
 ![alt text](/assets/LoginScreen.jpeg)
-<br>
 <h3> Register Screen<h3>
-<p>this is the register screen </p>
-
+<p>Here is what the register screen looks like. A user will create an account with these 4 entries. One for Name; can be full name or nick name. The next two entries will also be used for loging in: email and password. And finally we have profile pic, were a user can upload any photo for their account. The photo will display as a circular avatar. </p>
 ![alt text](/assets/RegisterScreen.jpeg)
-<!-- <img src= 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3GPLyx7b78TAprDoxVlyA10ZUHD-C-aP4wg&usqp=CAU'> -->
-<!-- <img src= '/Users/christopherhenderson/test-labs/mod5/build-N-burn/Signal-clone/signal-clone-yt/assets/ImageCopy.jpg'> -->
+
 
