@@ -5,5 +5,5 @@ Pic-chore is a mobile app with camera functionality and chat funtionality betwee
 
 <!-- ![alt text](http://url/to/img.png) -->
 <!-- <img src= 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3GPLyx7b78TAprDoxVlyA10ZUHD-C-aP4wg&usqp=CAU'> -->
-<img src= 'IMG-0692copy.jpg'>
+<img src= 'ImageCopy.jpg'>
 
