@@ -20,7 +20,7 @@ Pic-chore is a mobile app with camera functionality and chat funtionality betwee
 ![alt text](/assets/HomeScreen.jpeg)
 <br>
 <h3> Create Screen <h3>
-<p> Here we have the Create Screen where the user can create a new chore to be done.  </p>
+<p> Here we have the Create Screen where the user can create a new chore to be done. Very simple design here; only one option for the user interact with. With an example below; also plays as the directions/onboarding process (teaching the user how to use to app). Once a chore is named and created, by pressing the 'Create Chore' button, the camera screen will pop up allowing the user to take a picture of the chore named. Also the user will have the option to take multiple pictures for a single chore. </p>
 
 ![alt text](/assets/CreateScreen.png)
 
