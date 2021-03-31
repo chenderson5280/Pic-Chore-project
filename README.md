@@ -18,5 +18,9 @@ Pic-chore is a mobile app with camera functionality and chat funtionality betwee
 <p>Welcome to the home screen. The main purpose of this screen is to see all chores still waiting to be complete. You will notice the user's avatar at the top-middle. Chores listed below and organized by most recent at the top. There is a 'LogOut' button to exit the app, also a camera and pencil button. The camera will just simply bring up the camera. The pencil will prompt the user to create a new chore to be done. #smileykitty </p>
 
 ![alt text](/assets/HomeScreen.jpeg)
+<br>
+<h3> Create Screen <h3>
+<p> Here we have the Create Screen where the user can create a new chore to be done.  </p>
 
+![alt text](/assets/CreateScreen.png)
 
